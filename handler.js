@@ -268,7 +268,7 @@ module.exports = {
           if (!'anticall' in settings) settings.anticall = true
           if (!'antispam' in settings) settings.antispam = true
           if (!'antitroli' in settings) settings.antitroli = false
-          if (!'backup' in settings) settings.backup = false
+          if (!'backup' in settings) settings.backup = true
           if (!isNumber(settings.backupDB)) settings.backupDB = 0
           if (!'groupOnly' in settings) settings.groupOnly = false
           if (!'jadibot' in settings) settings.groupOnly = false
@@ -279,7 +279,7 @@ module.exports = {
           anticall: true,
           antispam: true,
           antitroli: false,
-          backup: false,
+          backup: true,
           backupDB: 0,
           groupOnly: false,
           jadibot: false,
