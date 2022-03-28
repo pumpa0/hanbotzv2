@@ -4,7 +4,7 @@ const { servers, yt } = require('../lib/y2mate')
 
 let handler = async (m, { conn, args, isPrems, isOwner }) => {
 let fs = require('fs')
-let y = fs.readFileSync('./src/RadBot.png')
+let y = fs.readFileSync('./src/hisoka.jpg')
   if (!args || !args[0]) throw 'Uhm... urlnya mana?'
   let chat = global.db.data.chats[m.chat]
   let quality = args[1] || '360'
